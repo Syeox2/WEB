@@ -2,29 +2,108 @@
 
 <html>
   <head>
-    <title>발표동아리 SPLing</title>
+    <title>Find Your Fashion</title>
     <meta charset="utf-8">
+    <style>
+
+    body {
+   background-image: url('png');
+   background-color:black;
+}
+
+a {
+  color:white;
+  text-decoration:none;
+}
+
+h1{
+  font-size: 60px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+  background-color:white;
+  color: black;
+}
+
+ol{
+  border-right:1px solid gray;
+  width: 100px;
+  margin:10;
+  padding:20px;
+
+}
+
+.top-left{
+  position:absolute;
+  top:20px;
+  left:20px;
+  background-color:black;
+  color:white;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.inline-block{
+  display:inline-block;
+  padding-left:5px;
+}
+
+.container{
+  position:relative;
+}
+
+.text-block{
+  position:absolute;
+  top:20px;
+  left:20px;
+  background-color:black;
+  color:white;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+</style>
 <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <h1><a href="index.html">SPLing</a></h2>
+  <h1><a href="index.html"><font color="black">F A S H I O N</font></a></h1>
+  <h5><a href="login.html">로그인</a> 공지사항  검색 </h5>
       <div id="grid">
     <ol>
-      <li><a href = "1.html"> SPLing 이란?</a></li>
-      <li><a href = "2.html"> SPLing 소개</a></li>
+      <li><a href = "1.html"> MEN</a></li>
+      <li><a href = "2.html"> WOMEN</a></li>
       <li><a href = "3.html" style="color:red;
-        text-decoration:none;"> SPLing 사진</a></li>
+        text-decoration:none;"> COLLECTION</a></li>
     </ol>
        <div id="article">
 
-    <h2><a href = "http://cafe.naver.com/splingles" target="_blank"
-      title = "SPLing 네이버 카페">
-      SPLing</a> 사진</h2>
+    <h2>
+      COLLECTION </a>모아보기</h2>
 
-    <p>
-    SPLing에서는 다양한 활동들을 사진에 담고 있습니다.
-    <br> 스프링글스가 되시면 매주 올라오는 사진들을 보실 수 있습니다.
-    </p>
+    <p><font color="white">
+    우리 사이트에서는 많은 브랜드의 COLLECTION 모아보기를 제공하고 있습니다.
+    <br>
+    당신의 마음에 드는 COLLECTION을 선택하고 당신의 패션을 찾으세요!
+    <br><br>
+    사진을 클릭하면 COLLECTION으로 이동합니다.
+  </font>
+  <br><br>
+  <a href="https://www.gucci.com/kr/ko/lo/runway/women/
+  spring-summer-2018-runway-c-runway-women-spring-summer-2018-runway">
+  <div class="container">
+  <img src="gu18ss.jpg">
+  <div class="text-block">
+    <h4>GUCCI <br>2018 S/S</h4>
+  </div>
+
+  <div class="inline-block">
+      <img src="gu18cr.jpg">
+      </div>
+</div>
+</div>
+</a>
+</p>
   </body>
 </html>

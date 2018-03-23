@@ -2,29 +2,38 @@
 
 <html>
   <head>
-    <title>발표동아리 SPLing</title>
+    <title>Find Your Fashion</title>
     <meta charset="utf-8">
     <style>
-    a {
-      color:green;
-      text-decoration:none;
-    }
 
-    h1{
-      font-size: 60px;
-      text-align: center;
-      border-bottom:1px solid gray;
-      margin:0;
-      padding:20px;
-    }
+    body {
+   background-image: url('png');
+   background-color:black;
+}
 
-    ol{
-      border-right:1px solid gray;
-      width: 100px;
-      margin:0;
-      padding:20px;
+      a {
+        color:white;
+        text-decoration:none;
+      }
 
-    }
+      h1{
+        font-size: 60px;
+        text-align: center;
+        border-bottom:1px solid gray;
+        margin:0;
+        padding:20px;
+        background-color:white;
+        color: black;
+      }
+
+      ol{
+        border-right:1px solid gray;
+        width: 100px;
+        margin:10;
+        padding:20px;
+
+      }
+
 
     #grid{
       display:grid;
@@ -38,6 +47,13 @@
       padding-left: 25px;
     }
 
+    .inline-block{
+      display:inline-block;
+      padding-left:5px;
+    }
+
+
+
     @media(max-width:800px){
       #grid{
         display: block;
@@ -45,28 +61,49 @@
     }
 
     </style>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <h1><a href="index.html">SPLing</a></h2>
+    <h1><a href="index.html"><font color="black">F A S H I O N</font></a></h1>
+    <h5><a href="login.html">로그인</a> 공지사항  검색 </h5>
         <div id="grid">
     <ol>
       <li><a href = "1.html" style="color:red;
-        text-decoration:none;"> SPLing 이란?</a></li>
-      <li><a href = "2.html"> SPLing 소개</a></li>
-      <li><a href = "3.html"> SPLing 사진</a></li>
+        text-decoration:none;"> MEN</a></li>
+      <li><a href = "2.html"> WOMEN</a></li>
+      <li><a href = "3.html"> COLLECTION</a></li>
     </ol>
       <div id="article">
 
-    <h2><a href = "http://cafe.naver.com/splingles" target="_blank"
-      title = "SPLing 네이버 카페">
-      SPLing</a> 이란?</h2>
-    <img src = "spling.png" width="50%">
-    <p>
-    <strong><u>SPLing</u></strong>은
-      대학생 연합 발표동아리 입니다.
-    <br>"변화의 중심에서 발표의 꽃이 피다" 라는 슬로건으로 2009년에 출범하였으며,
-    <br>약 9년동안 변화를 외치는 수많은 대학생들과 함께 해오고 있습니다.
-    </p>
+
+        <h2>2018 S/S MEN FASHION </h2>
+        2018 S/S 시즌의 신상품을 둘러보세요.
+        <br> <br>
+          <div class="inline-block">
+              <img src="men1.jpg">
+            </div>
+
+            <div class="inline-block">
+                <img src="men2.jpg">
+              </div>
+
+              <div class="inline-block">
+                  <img src="men3.jpg">
+                </div>
+
+    <h2><font color ="black"><a href = "https://www.gucci.com/kr/ko/" target="_blank"
+      title = "GUCCI">
+      <strong>GUCCI</strong></a> MAN</h2></font>
+
+      <h2><font color ="black"><a href = "http://www.chanel.com/ko_KR/" target="_blank"
+        title = "CHANEL">
+        <strong>CHANEL</strong></a> MAN</h2></font>
+
+        <h2><font color ="black"><a href = "http://www.prada.com" target="_blank"
+          title = "PRADA">
+          <strong>PRADA</strong></a> MAN</h2></font>
+
+
   </body>
 </html>
